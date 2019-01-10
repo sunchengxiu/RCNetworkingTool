@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8CD7BAE21E723730071EAB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7BAD21E723730071EAB1 /* AppDelegate.m */; };
+		E8CD7BB121E723730071EAB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7BB021E723730071EAB1 /* ViewController.m */; };
+		E8CD7BB421E723730071EAB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CD7BB221E723730071EAB1 /* Main.storyboard */; };
+		E8CD7BB621E723750071EAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8CD7BB521E723750071EAB1 /* Assets.xcassets */; };
+		E8CD7BB921E723750071EAB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CD7BB721E723750071EAB1 /* LaunchScreen.storyboard */; };
+		E8CD7BBC21E723750071EAB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7BBB21E723750071EAB1 /* main.m */; };
+		E8CD7BC621E723750071EAB1 /* RCNetworkingToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7BC521E723750071EAB1 /* RCNetworkingToolTests.m */; };
+		E8CD7BD121E723750071EAB1 /* RCNetworkingToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7BD021E723750071EAB1 /* RCNetworkingToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8CD7BC221E723750071EAB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8CD7BA121E723730071EAB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8CD7BA821E723730071EAB1;
+			remoteInfo = RCNetworkingTool;
+		};
+		E8CD7BCD21E723750071EAB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8CD7BA121E723730071EAB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8CD7BA821E723730071EAB1;
+			remoteInfo = RCNetworkingTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8CD7BA921E723730071EAB1 /* RCNetworkingTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCNetworkingTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CD7BAC21E723730071EAB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8CD7BAD21E723730071EAB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8CD7BAF21E723730071EAB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E8CD7BB021E723730071EAB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E8CD7BB321E723730071EAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8CD7BB521E723750071EAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8CD7BB821E723750071EAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8CD7BBA21E723750071EAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CD7BBB21E723750071EAB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8CD7BC121E723750071EAB1 /* RCNetworkingToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCNetworkingToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CD7BC521E723750071EAB1 /* RCNetworkingToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCNetworkingToolTests.m; sourceTree = "<group>"; };
+		E8CD7BC721E723750071EAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CD7BCC21E723750071EAB1 /* RCNetworkingToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCNetworkingToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CD7BD021E723750071EAB1 /* RCNetworkingToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCNetworkingToolUITests.m; sourceTree = "<group>"; };
+		E8CD7BD221E723750071EAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8CD7BA621E723730071EAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CD7BBE21E723750071EAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CD7BC921E723750071EAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8CD7BA021E723730071EAB1 = {
+			isa = PBXGroup;
+			children = (
+				E8CD7BAB21E723730071EAB1 /* RCNetworkingTool */,
+				E8CD7BC421E723750071EAB1 /* RCNetworkingToolTests */,
+				E8CD7BCF21E723750071EAB1 /* RCNetworkingToolUITests */,
+				E8CD7BAA21E723730071EAB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8CD7BAA21E723730071EAB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8CD7BA921E723730071EAB1 /* RCNetworkingTool.app */,
+				E8CD7BC121E723750071EAB1 /* RCNetworkingToolTests.xctest */,
+				E8CD7BCC21E723750071EAB1 /* RCNetworkingToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8CD7BAB21E723730071EAB1 /* RCNetworkingTool */ = {
+			isa = PBXGroup;
+			children = (
+				E8CD7BAC21E723730071EAB1 /* AppDelegate.h */,
+				E8CD7BAD21E723730071EAB1 /* AppDelegate.m */,
+				E8CD7BAF21E723730071EAB1 /* ViewController.h */,
+				E8CD7BB021E723730071EAB1 /* ViewController.m */,
+				E8CD7BB221E723730071EAB1 /* Main.storyboard */,
+				E8CD7BB521E723750071EAB1 /* Assets.xcassets */,
+				E8CD7BB721E723750071EAB1 /* LaunchScreen.storyboard */,
+				E8CD7BBA21E723750071EAB1 /* Info.plist */,
+				E8CD7BBB21E723750071EAB1 /* main.m */,
+			);
+			path = RCNetworkingTool;
+			sourceTree = "<group>";
+		};
+		E8CD7BC421E723750071EAB1 /* RCNetworkingToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8CD7BC521E723750071EAB1 /* RCNetworkingToolTests.m */,
+				E8CD7BC721E723750071EAB1 /* Info.plist */,
+			);
+			path = RCNetworkingToolTests;
+			sourceTree = "<group>";
+		};
+		E8CD7BCF21E723750071EAB1 /* RCNetworkingToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8CD7BD021E723750071EAB1 /* RCNetworkingToolUITests.m */,
+				E8CD7BD221E723750071EAB1 /* Info.plist */,
+			);
+			path = RCNetworkingToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8CD7BA821E723730071EAB1 /* RCNetworkingTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8CD7BD521E723750071EAB1 /* Build configuration list for PBXNativeTarget "RCNetworkingTool" */;
+			buildPhases = (
+				E8CD7BA521E723730071EAB1 /* Sources */,
+				E8CD7BA621E723730071EAB1 /* Frameworks */,
+				E8CD7BA721E723730071EAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCNetworkingTool;
+			productName = RCNetworkingTool;
+			productReference = E8CD7BA921E723730071EAB1 /* RCNetworkingTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8CD7BC021E723750071EAB1 /* RCNetworkingToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8CD7BD821E723750071EAB1 /* Build configuration list for PBXNativeTarget "RCNetworkingToolTests" */;
+			buildPhases = (
+				E8CD7BBD21E723750071EAB1 /* Sources */,
+				E8CD7BBE21E723750071EAB1 /* Frameworks */,
+				E8CD7BBF21E723750071EAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8CD7BC321E723750071EAB1 /* PBXTargetDependency */,
+			);
+			name = RCNetworkingToolTests;
+			productName = RCNetworkingToolTests;
+			productReference = E8CD7BC121E723750071EAB1 /* RCNetworkingToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8CD7BCB21E723750071EAB1 /* RCNetworkingToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8CD7BDB21E723750071EAB1 /* Build configuration list for PBXNativeTarget "RCNetworkingToolUITests" */;
+			buildPhases = (
+				E8CD7BC821E723750071EAB1 /* Sources */,
+				E8CD7BC921E723750071EAB1 /* Frameworks */,
+				E8CD7BCA21E723750071EAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8CD7BCE21E723750071EAB1 /* PBXTargetDependency */,
+			);
+			name = RCNetworkingToolUITests;
+			productName = RCNetworkingToolUITests;
+			productReference = E8CD7BCC21E723750071EAB1 /* RCNetworkingToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8CD7BA121E723730071EAB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = RongCloud;
+				TargetAttributes = {
+					E8CD7BA821E723730071EAB1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E8CD7BC021E723750071EAB1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E8CD7BA821E723730071EAB1;
+					};
+					E8CD7BCB21E723750071EAB1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E8CD7BA821E723730071EAB1;
+					};
+				};
+			};
+			buildConfigurationList = E8CD7BA421E723730071EAB1 /* Build configuration list for PBXProject "RCNetworkingTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8CD7BA021E723730071EAB1;
+			productRefGroup = E8CD7BAA21E723730071EAB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8CD7BA821E723730071EAB1 /* RCNetworkingTool */,
+				E8CD7BC021E723750071EAB1 /* RCNetworkingToolTests */,
+				E8CD7BCB21E723750071EAB1 /* RCNetworkingToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8CD7BA721E723730071EAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CD7BB921E723750071EAB1 /* LaunchScreen.storyboard in Resources */,
+				E8CD7BB621E723750071EAB1 /* Assets.xcassets in Resources */,
+				E8CD7BB421E723730071EAB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CD7BBF21E723750071EAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CD7BCA21E723750071EAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8CD7BA521E723730071EAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CD7BB121E723730071EAB1 /* ViewController.m in Sources */,
+				E8CD7BBC21E723750071EAB1 /* main.m in Sources */,
+				E8CD7BAE21E723730071EAB1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CD7BBD21E723750071EAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CD7BC621E723750071EAB1 /* RCNetworkingToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CD7BC821E723750071EAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CD7BD121E723750071EAB1 /* RCNetworkingToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8CD7BC321E723750071EAB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8CD7BA821E723730071EAB1 /* RCNetworkingTool */;
+			targetProxy = E8CD7BC221E723750071EAB1 /* PBXContainerItemProxy */;
+		};
+		E8CD7BCE21E723750071EAB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8CD7BA821E723730071EAB1 /* RCNetworkingTool */;
+			targetProxy = E8CD7BCD21E723750071EAB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8CD7BB221E723730071EAB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8CD7BB321E723730071EAB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8CD7BB721E723750071EAB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8CD7BB821E723750071EAB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8CD7BD321E723750071EAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8CD7BD421E723750071EAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8CD7BD621E723750071EAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RCNetworkingTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RongCloud.RCNetworkingTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8CD7BD721E723750071EAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RCNetworkingTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RongCloud.RCNetworkingTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8CD7BD921E723750071EAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RCNetworkingToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RongCloud.RCNetworkingToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RCNetworkingTool.app/RCNetworkingTool";
+			};
+			name = Debug;
+		};
+		E8CD7BDA21E723750071EAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RCNetworkingToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RongCloud.RCNetworkingToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RCNetworkingTool.app/RCNetworkingTool";
+			};
+			name = Release;
+		};
+		E8CD7BDC21E723750071EAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RCNetworkingToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RongCloud.RCNetworkingToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RCNetworkingTool;
+			};
+			name = Debug;
+		};
+		E8CD7BDD21E723750071EAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RCNetworkingToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RongCloud.RCNetworkingToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RCNetworkingTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8CD7BA421E723730071EAB1 /* Build configuration list for PBXProject "RCNetworkingTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CD7BD321E723750071EAB1 /* Debug */,
+				E8CD7BD421E723750071EAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8CD7BD521E723750071EAB1 /* Build configuration list for PBXNativeTarget "RCNetworkingTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CD7BD621E723750071EAB1 /* Debug */,
+				E8CD7BD721E723750071EAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8CD7BD821E723750071EAB1 /* Build configuration list for PBXNativeTarget "RCNetworkingToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CD7BD921E723750071EAB1 /* Debug */,
+				E8CD7BDA21E723750071EAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8CD7BDB21E723750071EAB1 /* Build configuration list for PBXNativeTarget "RCNetworkingToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CD7BDC21E723750071EAB1 /* Debug */,
+				E8CD7BDD21E723750071EAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8CD7BA121E723730071EAB1 /* Project object */;
+}
