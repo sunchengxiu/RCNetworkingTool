@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E851319221E839D2005B805C /* RCURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E851319121E839D2005B805C /* RCURLSessionManager.m */; };
+		E851319521E83A18005B805C /* RCHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E851319421E83A18005B805C /* RCHTTPSessionManager.m */; };
+		E851319D21E83F08005B805C /* RCJSONRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = E851319C21E83F08005B805C /* RCJSONRequestSerializer.m */; };
+		E85131A121E84BF0005B805C /* RCResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = E85131A021E84BF0005B805C /* RCResponseSerializer.m */; };
+		E85131A521E85009005B805C /* RCSessionTaskDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E85131A421E85009005B805C /* RCSessionTaskDelegate.m */; };
+		E85131C321E88384005B805C /* RCJSONResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = E85131C221E88384005B805C /* RCJSONResponseSerializer.m */; };
+		E85131C621E8946C005B805C /* RCNetingworkingDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = E85131C521E8946C005B805C /* RCNetingworkingDefine.m */; };
 		E8CD7BAE21E723730071EAB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7BAD21E723730071EAB1 /* AppDelegate.m */; };
 		E8CD7BB121E723730071EAB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7BB021E723730071EAB1 /* ViewController.m */; };
 		E8CD7BB421E723730071EAB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CD7BB221E723730071EAB1 /* Main.storyboard */; };
@@ -15,6 +22,8 @@
 		E8CD7BBC21E723750071EAB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7BBB21E723750071EAB1 /* main.m */; };
 		E8CD7BC621E723750071EAB1 /* RCNetworkingToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7BC521E723750071EAB1 /* RCNetworkingToolTests.m */; };
 		E8CD7BD121E723750071EAB1 /* RCNetworkingToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7BD021E723750071EAB1 /* RCNetworkingToolUITests.m */; };
+		E8CD7BE121E7243B0071EAB1 /* RCRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7BE021E7243B0071EAB1 /* RCRequestSerializer.m */; };
+		E8CD7BE521E739BE0071EAB1 /* RCQueryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7BE421E739BE0071EAB1 /* RCQueryModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E851319021E839D2005B805C /* RCURLSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCURLSessionManager.h; sourceTree = "<group>"; };
+		E851319121E839D2005B805C /* RCURLSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCURLSessionManager.m; sourceTree = "<group>"; };
+		E851319321E83A18005B805C /* RCHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCHTTPSessionManager.h; sourceTree = "<group>"; };
+		E851319421E83A18005B805C /* RCHTTPSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCHTTPSessionManager.m; sourceTree = "<group>"; };
+		E851319B21E83F08005B805C /* RCJSONRequestSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCJSONRequestSerializer.h; sourceTree = "<group>"; };
+		E851319C21E83F08005B805C /* RCJSONRequestSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCJSONRequestSerializer.m; sourceTree = "<group>"; };
+		E851319F21E84BF0005B805C /* RCResponseSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCResponseSerializer.h; sourceTree = "<group>"; };
+		E85131A021E84BF0005B805C /* RCResponseSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCResponseSerializer.m; sourceTree = "<group>"; };
+		E85131A221E84C05005B805C /* RCResponseSerializerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCResponseSerializerProtocol.h; sourceTree = "<group>"; };
+		E85131A321E85009005B805C /* RCSessionTaskDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCSessionTaskDelegate.h; sourceTree = "<group>"; };
+		E85131A421E85009005B805C /* RCSessionTaskDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCSessionTaskDelegate.m; sourceTree = "<group>"; };
+		E85131C121E88384005B805C /* RCJSONResponseSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCJSONResponseSerializer.h; sourceTree = "<group>"; };
+		E85131C221E88384005B805C /* RCJSONResponseSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCJSONResponseSerializer.m; sourceTree = "<group>"; };
+		E85131C421E8946C005B805C /* RCNetingworkingDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCNetingworkingDefine.h; sourceTree = "<group>"; };
+		E85131C521E8946C005B805C /* RCNetingworkingDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCNetingworkingDefine.m; sourceTree = "<group>"; };
 		E8CD7BA921E723730071EAB1 /* RCNetworkingTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCNetworkingTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CD7BAC21E723730071EAB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8CD7BAD21E723730071EAB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +75,11 @@
 		E8CD7BCC21E723750071EAB1 /* RCNetworkingToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCNetworkingToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CD7BD021E723750071EAB1 /* RCNetworkingToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCNetworkingToolUITests.m; sourceTree = "<group>"; };
 		E8CD7BD221E723750071EAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CD7BDF21E7243B0071EAB1 /* RCRequestSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCRequestSerializer.h; sourceTree = "<group>"; };
+		E8CD7BE021E7243B0071EAB1 /* RCRequestSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCRequestSerializer.m; sourceTree = "<group>"; };
+		E8CD7BE221E729CB0071EAB1 /* RCRequestSerializerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCRequestSerializerProtocol.h; sourceTree = "<group>"; };
+		E8CD7BE321E739BE0071EAB1 /* RCQueryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCQueryModel.h; sourceTree = "<group>"; };
+		E8CD7BE421E739BE0071EAB1 /* RCQueryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCQueryModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +107,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8428F1721E9EADA00B73E66 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				E85131C421E8946C005B805C /* RCNetingworkingDefine.h */,
+				E85131C521E8946C005B805C /* RCNetingworkingDefine.m */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		E8428F1821E9EB0600B73E66 /* QueryModel */ = {
+			isa = PBXGroup;
+			children = (
+				E8CD7BE321E739BE0071EAB1 /* RCQueryModel.h */,
+				E8CD7BE421E739BE0071EAB1 /* RCQueryModel.m */,
+			);
+			path = QueryModel;
+			sourceTree = "<group>";
+		};
+		E8428F1921E9EB3600B73E66 /* DelegateIMP */ = {
+			isa = PBXGroup;
+			children = (
+				E85131A321E85009005B805C /* RCSessionTaskDelegate.h */,
+				E85131A421E85009005B805C /* RCSessionTaskDelegate.m */,
+			);
+			path = DelegateIMP;
+			sourceTree = "<group>";
+		};
+		E8428F1B21E9EB7900B73E66 /* NetworkingPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				E8428F1721E9EADA00B73E66 /* Define */,
+				E851319A21E83D6B005B805C /* Manager */,
+				E8CD7BDE21E723C10071EAB1 /* Serialization */,
+				E8428F1921E9EB3600B73E66 /* DelegateIMP */,
+				E8428F1821E9EB0600B73E66 /* QueryModel */,
+			);
+			path = NetworkingPlugin;
+			sourceTree = "<group>";
+		};
+		E851319921E83D5A005B805C /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				E8CD7BE221E729CB0071EAB1 /* RCRequestSerializerProtocol.h */,
+				E8CD7BDF21E7243B0071EAB1 /* RCRequestSerializer.h */,
+				E8CD7BE021E7243B0071EAB1 /* RCRequestSerializer.m */,
+				E851319B21E83F08005B805C /* RCJSONRequestSerializer.h */,
+				E851319C21E83F08005B805C /* RCJSONRequestSerializer.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		E851319A21E83D6B005B805C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E851319321E83A18005B805C /* RCHTTPSessionManager.h */,
+				E851319421E83A18005B805C /* RCHTTPSessionManager.m */,
+				E851319021E839D2005B805C /* RCURLSessionManager.h */,
+				E851319121E839D2005B805C /* RCURLSessionManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E851319E21E84BD5005B805C /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				E851319F21E84BF0005B805C /* RCResponseSerializer.h */,
+				E85131A021E84BF0005B805C /* RCResponseSerializer.m */,
+				E85131C121E88384005B805C /* RCJSONResponseSerializer.h */,
+				E85131C221E88384005B805C /* RCJSONResponseSerializer.m */,
+				E85131A221E84C05005B805C /* RCResponseSerializerProtocol.h */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 		E8CD7BA021E723730071EAB1 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +204,7 @@
 		E8CD7BAB21E723730071EAB1 /* RCNetworkingTool */ = {
 			isa = PBXGroup;
 			children = (
+				E8428F1B21E9EB7900B73E66 /* NetworkingPlugin */,
 				E8CD7BAC21E723730071EAB1 /* AppDelegate.h */,
 				E8CD7BAD21E723730071EAB1 /* AppDelegate.m */,
 				E8CD7BAF21E723730071EAB1 /* ViewController.h */,
@@ -130,6 +234,15 @@
 				E8CD7BD221E723750071EAB1 /* Info.plist */,
 			);
 			path = RCNetworkingToolUITests;
+			sourceTree = "<group>";
+		};
+		E8CD7BDE21E723C10071EAB1 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				E851319E21E84BD5005B805C /* Response */,
+				E851319921E83D5A005B805C /* Request */,
+			);
+			path = Serialization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +375,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85131C621E8946C005B805C /* RCNetingworkingDefine.m in Sources */,
+				E8CD7BE121E7243B0071EAB1 /* RCRequestSerializer.m in Sources */,
+				E85131A121E84BF0005B805C /* RCResponseSerializer.m in Sources */,
+				E8CD7BE521E739BE0071EAB1 /* RCQueryModel.m in Sources */,
 				E8CD7BB121E723730071EAB1 /* ViewController.m in Sources */,
+				E851319221E839D2005B805C /* RCURLSessionManager.m in Sources */,
+				E85131C321E88384005B805C /* RCJSONResponseSerializer.m in Sources */,
 				E8CD7BBC21E723750071EAB1 /* main.m in Sources */,
 				E8CD7BAE21E723730071EAB1 /* AppDelegate.m in Sources */,
+				E851319D21E83F08005B805C /* RCJSONRequestSerializer.m in Sources */,
+				E851319521E83A18005B805C /* RCHTTPSessionManager.m in Sources */,
+				E85131A521E85009005B805C /* RCSessionTaskDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
