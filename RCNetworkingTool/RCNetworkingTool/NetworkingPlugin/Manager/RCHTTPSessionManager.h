@@ -42,7 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithBaseURL:(nullable NSURL *)url
            sessionConfiguration:(nullable NSURLSessionConfiguration *)configuration NS_DESIGNATED_INITIALIZER;
 
-- (NSURLSessionDataTask *)dataTaskWithMethod:(RCNetworkingMethodType )methodType URLString:(NSString *)urlString parameters:(nullable id)parameters success:(nullable void (^) (NSURLSessionDataTask *dataTask , _Nullable id responseObject))success failure:(nullable void (^) (NSURLSessionDataTask * _Nullable  , NSError *))failure;
+- (NSURLSessionDataTask *)requestWithMethod:(RCNetworkingMethodType )methodType URLString:(NSString *)urlString parameters:(nullable id)parameters success:(nullable void (^) (NSURLSessionDataTask *dataTask , _Nullable id responseObject))success failure:(nullable void (^) (NSURLSessionDataTask * _Nullable  dataTask, NSError * error))failure;
 @end
 
 NS_ASSUME_NONNULL_END

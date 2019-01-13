@@ -45,7 +45,7 @@
         return nil;
     }
     self.requestSerializer = [RCRequestSerializer requestSerializer];
-    self.responseSerializer = [RCResponseSerializer responseSerializer];
+    self.responseSerializer = [RCJSONResponseSerializer responseSerializer];
     return self;
 }
 - (NSString *)switchMethodType:(RCNetworkingMethodType)methodType{
@@ -71,7 +71,7 @@
     }
     return method;
 }
--(NSURLSessionDataTask *)dataTaskWithMethod:(RCNetworkingMethodType )methodType URLString:(NSString *)urlString parameters:(id)parameters success:(void (^)(NSURLSessionDataTask * _Nonnull, id _Nullable))success failure:(void (^)(NSURLSessionDataTask * _Nullable, NSError * _Nonnull))failure{
+-(NSURLSessionDataTask *)requestWithMethod:(RCNetworkingMethodType )methodType URLString:(NSString *)urlString parameters:(id)parameters success:(void (^)(NSURLSessionDataTask * _Nonnull, id _Nullable))success failure:(void (^)(NSURLSessionDataTask * _Nullable, NSError * _Nonnull))failure{
     NSString *method = [self switchMethodType:methodType];
     NSError *requestSer = nil;
     NSMutableURLRequest *request = [self.requestSerializer requestWithMethod:method urlString:urlString parameters:parameters error:&requestSer];
@@ -95,6 +95,7 @@
             }
         }
     }];
+    [dataTask resume];
     return dataTask;
 }
 @dynamic responseSerializer;
