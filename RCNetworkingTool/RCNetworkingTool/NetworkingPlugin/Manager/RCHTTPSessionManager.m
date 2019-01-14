@@ -12,10 +12,6 @@
 @interface RCHTTPSessionManager()
 @property (readwrite, nonatomic, strong) NSURL *baseURL;
 
-/**
- 指定请求的序列化格式，目前只有 json
- */
-@property (nonatomic, strong)RCRequestSerializer  <RCRequestSerializerProtocol>  *requestSerializer;
 
 /**
  请求的 response 序列化格式，目前只有 json

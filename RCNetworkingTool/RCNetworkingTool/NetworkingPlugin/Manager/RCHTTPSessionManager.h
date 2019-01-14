@@ -19,6 +19,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (readonly, nonatomic, strong, nullable) NSURL *baseURL;
 
 /**
+ 指定请求的序列化格式
+ */
+@property (nonatomic, strong)RCRequestSerializer  <RCRequestSerializerProtocol>  *requestSerializer;
+/**
  实例化方法
 
  @return sessionManager 对象
